@@ -1,6 +1,6 @@
-This is a full-stack React and Solidity app which connects to an ERC20 smart contract which uses an interface to access multiple Chainlink oracle price feeds. Visitors to the page can connect to the smart contract (via Metamask) to view current prices for Bitcoin, Ethereum, Chainlink, Synthetix, and Gold. 
+This is a full-stack React and Solidity app which connects to a smart contract which uses an interface to access multiple Chainlink oracle price feeds. Visitors to the page can connect to the smart contract (via Metamask) to view current prices for Bitcoin, Ethereum, Chainlink, Synthetix, and Gold. 
 
-The app has multiple components. First, I created a Solidity ERC20 smart contract, which I then compiled and deployed to the Goerli Ethereum Testnet using Hardhat and Visual Studio Code. The smart contract accesses Chainlink price feeds via an interface (AggregatorV3Interface). Next, I connected the React files to the Solidity smart contract on Goerli via Web3.js.
+The app has multiple components. First, I created a Solidity smart contract, which I then compiled and deployed to the Goerli Ethereum Testnet using Hardhat and Visual Studio Code. The smart contract accesses Chainlink price feeds via an interface (AggregatorV3Interface). Next, I connected the React files to the Solidity smart contract on Goerli via Web3.js.
 
 To use the app, one needs to install Metamask to their browser and connect it to the Goerli Ethereum testnet.
 
